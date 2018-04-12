@@ -4,39 +4,39 @@ package edu.handong.csee.java.lab09.prob1;
  */
 public class SalesAssociate {
 	
-	private String name;
-	private double sales;
+	private String name; //declare a string "name"
+	private double sales;//declare a double "sales"
 	
 	/**
-	 * a method 
+	 * a method stores name
 	 */
 	public void setName(String name)
 	{
-		this.name = name;
+		this.name = name;//store "name" in a global variable "name"
 	}
 	
 	/**
-	 * a method 
+	 * a method stores sales 
 	 */
 	public void setSales(double sales)
 	{
-		this.sales = sales;
+		this.sales = sales; //store "sales" in a global variable "sales"
 	}
 	
 	/**
-	 * a method 
+	 * a method gives name
 	 */
 	public String getName()
 	{
-		return name;
+		return name; 	//give the value "name"
 	}
 	
 	/**
-	 * a method 
+	 * a method gives sales
 	 */
 	public double getSales()
 	{
-		return sales;
+		return sales;//give the value "sales"
 	}
 
 }
